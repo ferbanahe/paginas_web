@@ -1,15 +1,32 @@
+/* Estilos básicos despues del reset */
+
+/* h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ */
+
+ .menu {
+	list-style: none;
+}
+
 /* div {
     background-color: bisque
 } */
+
 .articulo {
-    background-color: bisque
+    background-color: bisque;
+    font-size: 1.2rem;
 }
 
-.menu {
-    list-style: none
+/* h2 {color: brown}
+ */
+.marron {
+    color: brown; 
+    font-size: 1.2rem;
 }
-.marron {color: brown}
 
-
-/* h2
-{color: brown}*/
+.item {
+    font-size: 1.5rem
+}
