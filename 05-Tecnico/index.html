@@ -1,36 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Documento técnico</title>
     <style>
-       
+        body {
+            margin: 2rem;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Documentos técnicos</h1>
     </header>
-    <article>
-        <h2>Pro Angular por Adam Freeman</h2>
-        <blockquote cite="la url de la editorial por ejemplo>Get the most ....
-        </blockquote>
-        <cite>Por Angular por Adam Freeman</cite>
-        <section>
-        <h3>Reseña</h3>
-        <p>En su interesante libro Freeman nos avisa que <q cite="la url de la editorial por ejemplo>Each topics covered....</q> pero no estoy de acuerdo
-        </p>
-        </section>
+    <section id="reseñas">
+        <header>
+            <h2>Reseñas</h2>
+        </header>
+        <article>
+            <h3>Pro Angular por Adam Freeman</h3>
+            <blockquote cite="https://www.apress.com/la/book/9781484223062" title="Pro Angular, 2nd Edition. 2017. Adam Freeman">Get the most from Angular 2, the leading framework for building dynamic JavaScript applications. Best-selling
+                author Adam Freeman begins by describing the MVC pattern and the benefits it can offer and then shows you
+                how to use Angular in your projects, starting from the nuts-and-bolts and building up to the most advanced
+                and sophisticated features, going in-depth to give you the knowledge you need. <!-- <cite>Pro Angular, 2nd Edition. 2017. Adam Freeman</cite> --></blockquote>
+            
+            <section>
+                <h4>Reseña</h4>
+                <p>En su interesante libro, Freeman nos avisa que <q cite="https://www.apress.com/la/book/9781484223062">Each topic is covered clearly and concisely</q> pero yo pienso que resulta inneceraio.</p>
+                <p>Sería un libro muy recomendable, aunque yo prefiero <cite>Angular 2. A Practical Introduction to the new Web Development Platform, de Sebastian Eschweiler</cite> publicado <time datetime="2016-02-12" pubdate>un año antes</time>.</p>
+            </section>
+        </article>
+    </section>
 
-    </article>
-    <footer>
+    <section id="Conceptos">
+            <p>The <abbr title="Hyper Text Marckup Language">HTML</abbr> Definition element
+                (<strong><dfn>&lt;dfn></dfn></strong>) is used to indicate the
+                term being defined within the context of a definition phrase or
+                sentence.</p>
+            <p>... se obtiene pulsando <kbd>Ctrl-C</kbd></p>
+    </section>
+
+    <footer id="pie">
         <address>
-            Fernando poner correo electrónico o forma de contacto
+            Alejandro Cerezo - alce65@hotmail.es
         </address>
-        <p>Fernando &copy; CAS TRAINING</p>
-        <p><small> Reproduce libremente lo que necesites</small></p>
+        <p>&copy; CAS Training - 2017</p>
+        <p>
+            <small>Reproduce libremente lo que necesites</small>
+        </p>
     </footer>
 </body>
+
 </html>
