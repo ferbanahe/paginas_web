@@ -1,0 +1,14 @@
+
+nav ul {
+    list-style: none;
+}
+main p {
+    width: 15%;
+    float: left;
+    margin-right: 2rem;
+}
+
+footer p {
+    margin-top: 0;
+    background: bisque
+}

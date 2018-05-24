@@ -1,0 +1,9 @@
+@import "extras css"
+header {
+    background-color: coral;
+}
+/*aqui añadimos comentarios*/
+
+p { 
+    font-size: 1rem
+}
