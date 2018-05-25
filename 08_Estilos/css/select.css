@@ -1,20 +1,36 @@
+/*ejemplo de aplicación de propiedad color y valor azul exigiendo que se haga sobre el h3 en donde se aplica el .art1*/
+
 .art1 h3 {
     color: blue;
 }
+
+
 .verde {
     text-decoration: underline;
 }
+
+/*ejemplo de aplicación de propiedad color y valor lime usandolo en el párrafo que tenga class verde*/
+
 p.verde {
     color: lime;
 }
+
+/*ejemplo de aplicación de propiedad color y valor darkgreen usandolo en el h2 que tenga class verde*/
+
 h2.verde {
     color: darkgreen
 }
+
+/*ejemplo de selección de h3 y .verde para aplicarles esas tres propiedades y sus correspondientes valores */
+
 h3, .verde {
     font-size: 1.8rem;
     font-style: italic;
     font-weight: bold;
 }
+
+/*ejemplo de aplicación de propiedad color y valor marron usando class*/
+
 .marron {
     color: maroon;
 }
