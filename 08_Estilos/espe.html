@@ -6,45 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejemplo realista</title>
-    <link rel="stylesheet" href="./css/realista.css">
+    <link rel="stylesheet" href="./css/espe.css">
 </head>
 
 <body>
     <header>
-        <h1>Uso de selectores</h1>
+        <h1 class="principal">Uso de selectores y especificidad</h1>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Opcion 1</a>
-            </li>
-            <li>
-                <a href="#">Opcion 2</a>
-            </li>
-            <li>
-                <a href="#">Opcion 3</a>
-            </li>
-            <li>
-                <a href="#">Opcion 4</a>
-            </li>
-            <li>
-                <a href="#">Opcion 5</a>
-            </li>
-        </ul>
-    </nav>
     <main>
         <article>
-            <ul>
-                <li>Algo</li>
-                <li>Algo</li>
-                <li>Algo</li>
-                <li>Algo</li>
-            </ul>
-        </article>
-        <article>
             <h2>Titulo</h2>
-            <p class="verde">Lorem ipsum,
-                <a class="verde" href="algo">dolor</a> sit amet consectetur adipisicing elit. Tempora, corporis? Ullam cumque odit unde illo animi maxime?
+            <p id="uno" class="principal">Lorem ipsum,
+                <a href="algo">dolor</a> sit <span>amet consectetur</span> adipisicing elit. Tempora, corporis? Ullam cumque odit unde illo animi maxime?
                 Molestiae, culpa. Quaerat sed porro quibusdam earum eos quos cum fugit ipsum distinctio!</p>
             <p title="Ciceron">Veniam assumenda tempora amet ad, a neque ipsa id cumque sit eius numquam odio vel ipsum magni similique velit
                 molestiae. Optio autem illo excepturi minus architecto. A provident molestias porro?</p>
@@ -64,7 +37,7 @@
         <div>Aqui iran los iconos sociales</div>
         <div>
             <address>Alejandro Cerezo</address>
-            <p>
+            <p class="principal">
                 <small>&copy; CAS Training</small>
             </p>
         </div>

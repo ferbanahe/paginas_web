@@ -1,0 +1,34 @@
+.boton {
+    width: 10rem;
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+div.boton:hover {
+    color: maroon
+}
+
+p::first-letter {
+    font-size: 2rem
+}
+
+p::first-line {
+    color: blue
+}
+
+blockquote::before {
+    content: url(../img/mundo.png) open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+section.parte1 p::first-letter {
+    font-size: 2rem;
+    font-weight: 
+}
+
+section.parte2 p:nth-child(2) {
+    color: crimson
+}
