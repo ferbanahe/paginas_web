@@ -1,0 +1,15 @@
+
+:root {
+--color-primary: rgb(58, 17, 17);
+--color-secundary: rgb(136, 90, 15);
+--aire-basico: 1rem;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-secundary);
+}
+
+header h1 {
+    padding: calc(var(--aire-basico)*2);
+}
