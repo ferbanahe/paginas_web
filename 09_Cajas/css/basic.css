@@ -20,5 +20,5 @@ span {
 div p {
     width: 30%;
     height: 5rem;
-    overflow: scroll;
+    overflow: auto;
 }
