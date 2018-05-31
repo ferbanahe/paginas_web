@@ -17,6 +17,7 @@
     </header>
     <article>
         <ul>
+         <!--ejemplo de metadatos no estandarizados usando class -->
             <li class="titulo">El Señor de los Anillos</li>
             <li class="tit_orig">The Lord of de Rings</li>
             <li class="fecha_orig">1954</li>
@@ -25,7 +26,12 @@
             <li class="fecha_esp">1980</li>
             <li class="descripción"> Novela de fantasía épica escrita por el filólogo y escritor británico.</li>
         </ul>
-        <!--ejemplo de microdato-->
+        <!--ejemplo de metadatos usando atributos propios-->
+        <p>
+            <span data-titulo="El Señor de los Anillos" data-tit-orig="The Lord of the Rings" data-fecha-orig="1954">El Señor de los Anillos</span> es un novela de fantasía épica escrita por el filólogo y escritor británico <span data-autor="J. R. R. Tolkien">Tolkien</span>
+        </p>
+
+        <!--ejemplo de Microdata, más información en http://schema.org/docs/gs.html -->
         <ul itemscope itemtype="http://schema.org/Book" itemid="1">
             <li itemprop="translationOfWork">
                     <span itemscope itemtype="http://schema.org/CreativeWork" itemid="1">
@@ -56,7 +62,7 @@
         
     </aside>
     <footer>
-        <!--ejemplo de microformato-->
+        <!--ejemplo de microformato, más información en http://microformats.org/-->
         <address>
                 <div id="hcard-Fernando-B-Herrera" class="vcard">
                         <span class="fn n">
